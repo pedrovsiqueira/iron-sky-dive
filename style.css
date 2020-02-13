@@ -53,6 +53,10 @@ h5 {
     font-size: 2em;
 }
 
+.nav-bar ul {
+    list-style: none;
+}
+
 .header {
     height: 650px;
     background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
@@ -90,4 +94,47 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+#team .section-text{
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#team .member-name{
+    font-size: 1,5em;
+    font-weight: 700;
+}
+
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.footer a {
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
 }
