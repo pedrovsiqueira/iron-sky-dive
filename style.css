@@ -60,6 +60,8 @@ h5 {
 .nav-bar-ul {
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-bar-ul li{
@@ -74,15 +76,19 @@ h5 {
     background-repeat: no-repeat;
     size: cover;
     padding-top: 50px;
+    position: relative;
 }
 
 .header h2{
     color: white;
-    text-shadow: #020819 8px -20px 9px;
+    text-shadow: #020819 8px -2px 9px;
 }
 
 .quote {
     font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
 }
 
 .dark-background{
@@ -100,11 +106,19 @@ h5 {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 75px 0
+    padding: 75px 0;
 }
 
 #general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
 }
 
 .link-btn {
@@ -115,6 +129,14 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+    padding: 10px 30px;
+}
+
+#structure div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .service-box {
@@ -141,6 +163,18 @@ h5 {
 #team p{
     width: 60%;
     margin: 10px auto;
+}
+
+#team div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team div article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #team hr{
@@ -185,6 +219,9 @@ h5 {
     font-size: 1.9em;
     padding: 40px 100px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -197,3 +234,9 @@ h5 {
     list-style: none;
     padding: 0;
 }
+
+.map-frame{
+    height: 375px;
+    width: 60%;
+}
+
